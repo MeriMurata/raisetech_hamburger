@@ -1,0 +1,37 @@
+.c-grand-menu{
+
+    &__primary{
+
+        &--menu{
+            list-style: none;
+            position:absolute;
+            top: 218px;
+            left: 46px;
+        }
+        
+        &--item > p{
+            color: #707070;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            font-size: 20px;
+
+        }
+
+    }    
+
+    &__secondary{
+        &--menu{
+            list-style: none;
+        }
+
+        &--item{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 18px;
+            color: #707070;
+
+        }
+
+    }
+
+}
