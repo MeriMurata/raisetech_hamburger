@@ -1,0 +1,32 @@
+.c-headline{
+    &--lv1{
+        font-weight: bold;
+        font-size: 32px;
+        text-align: center;
+        padding-top: 50px;
+        
+    }
+
+    &--lv2{
+        font-weight: bold;
+        font-size: 26px;
+        color: white;
+        line-height:285px;
+        margin-left: 20px;
+    }
+
+    &--lv3{
+        font-weight: normal;
+        font-size: 26px;
+        color:white;
+    }
+
+    &--lv4{
+        color: white;
+        font-weight: bold;
+        font-size: 26px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,24 @@
+.c-place-menu{
+
+    &__name{
+        color: white;
+        font-weight: bold;
+        font-size: 32px;
+        margin-top:50px;
+        margin-left: 10px;
+    }
+
+    &__bar{
+        width: 5%;
+        border: white solid 3px;
+        margin-top:40px;
+        margin-left: 10px;
+
+    }
+
+    &__description{
+        color: white;
+        margin-left:10px;
+    }
+
+}

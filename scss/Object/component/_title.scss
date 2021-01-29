@@ -1,0 +1,15 @@
+.c-title{
+    &--menu{
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        right: 12px;
+        cursor : pointer;
+    }
+
+    &--menu a{
+        text-decoration: none;
+        color: #333333;
+    }
+
+}

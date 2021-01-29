@@ -1,0 +1,22 @@
+.l-sidebar{
+    width: 250px;
+    height: 2716px;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    display: block;
+    transition: 0.3s;
+    overflow-y :scroll;
+}
+
+
+.l-sidebar.open {
+    overflow-y :scroll;
+    width: 250px;
+    height: 2716px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block;
+    transition: 0.3s;
+}
