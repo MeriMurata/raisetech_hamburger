@@ -426,7 +426,7 @@ p {
   height: 285px;
 }
 
-.l-sub-wrap {
+.l-sub--wrap {
   width: 100%;
   height: 1374px;
   display: -webkit-box;
@@ -436,6 +436,17 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.l-sub--archive {
+  width: 100%;
+  height: 350px;
+}
+
+.l-sub--archive p {
+  color: #333333;
+  margin-right: 18px;
+  margin-left: 18px;
 }
 
 .l-map {
@@ -478,6 +489,12 @@ p {
   margin-top: 30px;
   margin-left: 10px;
   margin-bottom: 12px;
+}
+
+.c-headline--lv4__archive {
+  font-size: 24px;
+  margin-left: 20px;
+  color: #333333;
 }
 
 .c-serch--box {
@@ -681,6 +698,13 @@ p {
   background-image: url(/image/hero1.png);
   background-size: cover;
   height: 285px;
+}
+
+.p-hero--archive {
+  background-image: url(/image/hero2.png);
+  background-size: cover;
+  height: 285px;
+  background-position: center;
 }
 
 .p-place-menu--takeout {
