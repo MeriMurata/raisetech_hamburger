@@ -1,5 +1,8 @@
 @charset 'UTF-8';
 
+@import "./Foundation/mixin";
+@import "./Foundation/grid";
+@import "./Foundation/variables";
 @import "./Foundation/reset";
 @import "./Foundation/base";
 @import "./Layout/header";
@@ -18,37 +21,9 @@
 @import "./Object/component/close";
 @import "./Object/component/map";
 @import "./Object/component/overlay";
+@import "./Object/component/food-menu";
 @import "./Object/project/serchform";
-@import "./Object/project/p-hero";
+@import "./Object/project/hero";
 @import "./Object/project/place-menu";
 @import "./Object/project/primary-menu";
 @import "./Object/project/map";
-
-
-$breakpoints:(
-smartphone: "screen and (max-width: 599px)",
-tablet: "screen and (min-width: 600px)",
-pc: "screen and (min-width: 1200px)",
-);
-
-@mixin mq ($breakpoint) {
-@media #{map-get($breakpoints, $breakpoint)}{
-    @content;
-}
-}
-
-//レスポンシブ対応テスト
-@include mq (tablet){
-
-    .c-headline--lv1{
-        color:red;
-    }
-
-}
-
-
-
-
-body{
-    position: relative;
-}

@@ -1,0 +1,42 @@
+@include mq (pc){
+    body{
+        display: grid;
+        grid-template:
+        "header sidebar" 217px
+        "main sidebar" 430px
+        "sub sidebar" 1300px
+        "map sidebar" 649px
+        "footer footer" 150px
+        / 1fr 300px;
+    
+    }
+    
+    .l-header{
+        grid-area: header;
+    }
+    
+    .l-sidebar{
+        grid-area: sidebar;
+    }
+    
+    .l-main-wrap{
+        grid-area: main;
+    
+    }  
+    
+    .l-sub--wrap{
+        grid-area: sub;
+    
+    }
+    
+    .l-map{
+        grid-area: map;
+    
+    }
+    
+    .l-footer{
+        grid-area: footer;
+    
+    }
+
+}

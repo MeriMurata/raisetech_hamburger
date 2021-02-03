@@ -2,6 +2,11 @@
     background-color: rgba(0, 0, 0, 0.274);
     height: 415px;
 
+    @include mq (pc){
+        width: 600px;
+        height: 649px;
+    }
+
     &__title{
         padding-top: 20px;
         padding-left: 20px;

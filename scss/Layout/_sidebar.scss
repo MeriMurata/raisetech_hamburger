@@ -7,6 +7,14 @@
     display: block;
     transition: 0.3s;
     overflow-y :scroll;
+
+    @include mq (pc){
+        position: initial;
+        width: 300px;
+        overflow-y:initial;
+        height: 100%;
+    }
+
 }
 
 

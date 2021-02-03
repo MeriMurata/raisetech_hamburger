@@ -1,6 +1,11 @@
 .c-overlay{
     top: 0;
     left: 100%;
+
+    @include mq (pc){
+        display: none;
+    }
+
 }
 
 
@@ -12,4 +17,8 @@
     top:0;
     left: 0;
     display: block;
+
+    @include mq (pc){
+        display: none;
+    }
 }
