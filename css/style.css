@@ -1727,6 +1727,28 @@ body {
   }
 }
 
+.p-hero--page {
+  background-image: url(/image/shop.png);
+  background-size: 190%;
+  height: 345px;
+  background-position: center;
+}
+
+@media screen and (min-width: 600px) {
+  .p-hero--page {
+    background-size: 110%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .p-hero--page {
+    height: 225px;
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 100%;
+  }
+}
+
 .p-place-menu--takeout {
   background-image: url(/image/takeout.png);
   width: 95%;
