@@ -4,11 +4,20 @@
         justify-content: center;
         list-style: none;
         padding-top: 40px;
+
+        & > span{
+            color: white;
+            padding-left: 8px;
+        }
     }
 
     &__navigation__item{
         color: white;
         padding-left: 10px;
+
+        &:hover{
+            opacity: 0.8;
+        }
     }
 
     &__navigation__item a{

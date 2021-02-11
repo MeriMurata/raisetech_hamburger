@@ -23,10 +23,28 @@
        height: auto;
    }
 
-   &--archive p{
+   &--singlepage{
+    background-color: $basebackground-color;
+
+    & > p{
+        color: #333333;
+        margin-right: 18px;
+        margin-left: 18px;  
+    }
+
+
+
+   }
+
+   &--archive > p{
        color: #333333;
        margin-right: 18px;
        margin-left: 18px;
+
+       @include mq (pc){
+           margin-left: 50px;
+           margin-right: 50px;
+       }
    }
 
 }

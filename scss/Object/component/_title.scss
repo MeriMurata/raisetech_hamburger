@@ -4,15 +4,20 @@
         position: absolute;
         top: 20px;
         right: 12px;
-        color: #707070;
+        color:$basefont-color;
         cursor : pointer;
+        font-size:26px;
+
+        &:hover{
+            opacity: 0.8;
+        }
 
         &__sidebar{
             display: none;
         
         @include mq(pc){
             display: block;
-            color: #333333;
+            color: $basefont-color;
             font-weight: bold;
             font-size:22px;
             padding-top: 80px;

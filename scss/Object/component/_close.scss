@@ -8,6 +8,10 @@
     right: 16px;
     cursor : pointer;
 
+    &:hover{
+        opacity: 0.8;
+    }
+
     &::before,&::after{
         content: "";
         display: block;

@@ -10,17 +10,19 @@ pc: "screen and (min-width: 1200px)",
 }
 }
 
-//レスポンシブ対応テスト
-// @include mq (tablet){
+// レスポンシブ対応テスト
 
-//     .c-headline--lv1{
-//         color:red;
-//     }
+@include mq (tablet){
 
-//     @include mq (pc){
+    .c-headline--lv1{
+        color:red;
+    }
+        
+}
 
-//         .c-headline--lv1{
-//             color:blue;
-//         }
-//     }
-// }
+@include mq (pc){
+
+    .c-headline--lv1{
+        color:blue;
+    }
+}

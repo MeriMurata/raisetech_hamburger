@@ -6,11 +6,16 @@
         font-size: 32px;
         margin-top:50px;
         margin-left: 10px;
+
+        @include mq (pc){
+            margin-top:30px;
+            font-size: 50px;
+        }
     }
 
     &__bar{
-        width: 5%;
-        border: white solid 3px;
+        width: 10%;
+        border: white solid 2px;
         margin-top:40px;
         margin-left: 10px;
 
