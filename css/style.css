@@ -954,6 +954,12 @@ body {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 600px) {
+  .c-place-menu__name {
+    font-size: 40px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .c-place-menu__name {
     margin-top: 30px;
@@ -962,7 +968,7 @@ body {
 }
 
 .c-place-menu__bar {
-  width: 10%;
+  width: 50px;
   border: white solid 2px;
   margin-top: 40px;
   margin-left: 10px;
